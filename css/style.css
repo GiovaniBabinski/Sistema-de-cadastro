@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    color: blue;
+    text-shadow: 2px 2px 2px white;
+    width: 25%;
+    margin: auto auto;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*Elementos da parte visual inicial do sistema*/
+.areaInput {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 35%;
+    margin: 2% auto;
+    font-size: 25px;
+    text-align: start;
+
+}
+
+input#numUsu {
+    width: 10%;
+    height: 30px;
+    text-align: center;
+}
+
+input#btnNum {
+    background-color: blue;
+    color: azure;
+    font-weight: bold;
+    border: 2px solid white;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/*Elementos relacionados à area e inputs de cadastros, definidos pelo usuário*/
+
+.areaCadastrar {
+    border-radius: 15px;
+    width: 60%;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    margin: auto auto;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+/*Elementos correspondentes após o usuário delimitar quantos usuarios cadastrar*/
+
+.legendaCadastro {
+    color: black;
+    text-shadow: 2px 2px 2px white;
+
+    font-weight: 600;
+}
+
+#inputNome {
+    background-color: white;
+    height: 30px;
+    font-weight: bolder;
+}
+
+#inputTel {
+    background-color: rgb(200, 200, 192);
+    height: 30px;
+    font-weight: bolder;
+}
+
+#enviar {
+    font-size: 20px;
+    margin-top: 2%;
+    width: 15%;
+    margin-left: 36%;
+}
