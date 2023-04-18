@@ -7,7 +7,6 @@ function cadastrarUsuarios() {
     let contador = 1
 
     if (!areaCadastro.classList.contains("block")) {
-        console.log("Bloqueio")
 
         areaCadastro.innerHTML += "<h3 class='legendaCadastro'>Digite o nome e o telefone dos usuários que deseja cadastrar:</h3>"
 
